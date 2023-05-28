@@ -14,8 +14,7 @@ void main() {
           ),
           body: const Center(
             child: Image(
-              image: NetworkImage(
-                  'https://miro.medium.com/v2/resize:fit:3840/1*xMuIOwjliGUPjkzukeWKfw.jpeg'),
+              image: AssetImage('images/diamond.png'),
             ),
           )),
     ),
